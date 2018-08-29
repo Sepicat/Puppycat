@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - Kanna (4.0.0)
+  - SnapKit (4.0.0)
+  - Straycat (0.1.0):
+    - Alamofire (~> 4.5)
+    - Kanna (~> 4.0.0)
+    - SwiftSoup (~> 1.6.3)
+  - SwiftSoup (1.6.5)
+  - XJYChart (2.3.5):
+    - Colours (= 5.13.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Charts
+  - SnapKit
+  - Straycat (from `https://github.com/Sepicat/Straycat.git`)
+  - XJYChart
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Charts
+    - Colours
+    - Kanna
+    - SnapKit
+    - SwiftSoup
+    - XJYChart
+
+EXTERNAL SOURCES:
+  Straycat:
+    :git: https://github.com/Sepicat/Straycat.git
+
+CHECKOUT OPTIONS:
+  Straycat:
+    :commit: 5452f78e03d9c60bf8d9bb0cb424a3ce044763f9
+    :git: https://github.com/Sepicat/Straycat.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  Kanna: d5ae2a26472f7e7a474e7f36a9cd8aa2c8c63ad3
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Straycat: 22f30478edaf786bd30f1e38ab7e1be141daba00
+  SwiftSoup: f62a354a0b1273287fb27464b4a0b33bac319390
+  XJYChart: 38f7412be14cfdcc95f7b4b78aaa3fb96dc28a61
+
+PODFILE CHECKSUM: b3b6648b3d1f857c27928fec2a527a8c55e66315
+
+COCOAPODS: 1.5.3

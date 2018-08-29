@@ -1,0 +1,16 @@
+platform :ios, '10.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'PuppycatSample' do
+    pod 'Alamofire', '~> 4.5'
+    pod 'Straycat', :git => 'https://github.com/Sepicat/Straycat.git'
+    pod 'XJYChart'
+    pod 'Charts'
+    pod 'SnapKit'
+end
+
+target 'Puppycat' do
+    pod 'Straycat', :git => 'https://github.com/Sepicat/Straycat.git'
+    pod 'Alamofire', '~> 4.5'
+end
