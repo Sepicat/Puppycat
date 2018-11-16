@@ -13,11 +13,6 @@ import SnapKit
 
 class ViewController: UIViewController {
 
-    var chartView: PieChartView = {
-        let pieChartView = PieChartView()
-        pieChartView.backgroundColor = UIColor.clear
-        return pieChartView
-    }()
     var count = [String]()
     var repos = [String]()
 

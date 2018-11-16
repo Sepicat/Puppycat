@@ -1,8 +1,5 @@
 PODS:
   - Alamofire (4.7.3)
-  - Charts (3.1.1):
-    - Charts/Core (= 3.1.1)
-  - Charts/Core (3.1.1)
   - Kanna (4.0.0)
   - SnapKit (4.0.0)
   - Straycat (0.1.0):
@@ -13,14 +10,12 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
-  - Charts
   - SnapKit
   - Straycat (from `https://github.com/Sepicat/Straycat.git`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
-    - Charts
     - Kanna
     - SnapKit
     - SwiftSoup
@@ -36,12 +31,11 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
   Kanna: d5ae2a26472f7e7a474e7f36a9cd8aa2c8c63ad3
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   Straycat: 22f30478edaf786bd30f1e38ab7e1be141daba00
   SwiftSoup: f62a354a0b1273287fb27464b4a0b33bac319390
 
-PODFILE CHECKSUM: 5d24b3bdfecae363645f2fdfbd2205d27d3208f4
+PODFILE CHECKSUM: a67e5f686bcf571083070ee6f10d8bf45ec405cd
 
 COCOAPODS: 1.5.3
