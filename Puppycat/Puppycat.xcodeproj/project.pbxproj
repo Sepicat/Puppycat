@@ -15,6 +15,11 @@
 		8475D48521351473008BD946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8475D48321351473008BD946 /* Main.storyboard */; };
 		8475D48721351475008BD946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8475D48621351475008BD946 /* Assets.xcassets */; };
 		8475D48A21351475008BD946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8475D48821351475008BD946 /* LaunchScreen.storyboard */; };
+		849117E2219E8C3A007AD734 /* AAJSFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 849117DC219E8B08007AD734 /* AAJSFiles.bundle */; };
+		849117E3219E8C50007AD734 /* AAChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849117D8219E8B08007AD734 /* AAChartView.swift */; };
+		849117E4219E8C50007AD734 /* AAChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849117D9219E8B08007AD734 /* AAChartModel.swift */; };
+		849117E5219E8C50007AD734 /* AASerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849117DA219E8B08007AD734 /* AASerializable.swift */; };
+		849117E6219E8C50007AD734 /* AASeriesElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849117DB219E8B08007AD734 /* AASeriesElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,11 @@
 		8475D48621351475008BD946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8475D48921351475008BD946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8475D48B21351475008BD946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849117D8219E8B08007AD734 /* AAChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAChartView.swift; sourceTree = "<group>"; };
+		849117D9219E8B08007AD734 /* AAChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAChartModel.swift; sourceTree = "<group>"; };
+		849117DA219E8B08007AD734 /* AASerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AASerializable.swift; sourceTree = "<group>"; };
+		849117DB219E8B08007AD734 /* AASeriesElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AASeriesElement.swift; sourceTree = "<group>"; };
+		849117DC219E8B08007AD734 /* AAJSFiles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AAJSFiles.bundle; sourceTree = "<group>"; };
 		89FC52B4C1F3315A96BCDDFC /* Pods-Puppycat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Puppycat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Puppycat/Pods-Puppycat.release.xcconfig"; sourceTree = "<group>"; };
 		A351561F56B1722F5A886567 /* Pods-PuppycatSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuppycatSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PuppycatSample/Pods-PuppycatSample.release.xcconfig"; sourceTree = "<group>"; };
 		A972CA6627C822DB629C4DE7 /* Pods_Puppycat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Puppycat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +128,7 @@
 		8475D47E21351473008BD946 /* PuppycatSample */ = {
 			isa = PBXGroup;
 			children = (
+				849117D6219E8B08007AD734 /* AAInfographics */,
 				8475D47F21351473008BD946 /* AppDelegate.swift */,
 				8475D48121351473008BD946 /* ViewController.swift */,
 				8475D48321351473008BD946 /* Main.storyboard */,
@@ -126,6 +137,26 @@
 				8475D48B21351475008BD946 /* Info.plist */,
 			);
 			path = PuppycatSample;
+			sourceTree = "<group>";
+		};
+		849117D6219E8B08007AD734 /* AAInfographics */ = {
+			isa = PBXGroup;
+			children = (
+				849117D7219E8B08007AD734 /* AAChartCreator */,
+				849117DC219E8B08007AD734 /* AAJSFiles.bundle */,
+			);
+			path = AAInfographics;
+			sourceTree = "<group>";
+		};
+		849117D7219E8B08007AD734 /* AAChartCreator */ = {
+			isa = PBXGroup;
+			children = (
+				849117D8219E8B08007AD734 /* AAChartView.swift */,
+				849117D9219E8B08007AD734 /* AAChartModel.swift */,
+				849117DA219E8B08007AD734 /* AASerializable.swift */,
+				849117DB219E8B08007AD734 /* AASeriesElement.swift */,
+			);
+			path = AAChartCreator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +263,7 @@
 			files = (
 				8475D48A21351475008BD946 /* LaunchScreen.storyboard in Resources */,
 				8475D48721351475008BD946 /* Assets.xcassets in Resources */,
+				849117E2219E8C3A007AD734 /* AAJSFiles.bundle in Resources */,
 				8475D48521351473008BD946 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,23 +280,19 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-PuppycatSample/Pods-PuppycatSample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
 				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Straycat/Straycat.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
-				"${BUILT_PRODUCTS_DIR}/XJYChart/XJYChart.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Straycat.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XJYChart.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -323,6 +351,10 @@
 			files = (
 				8475D48221351473008BD946 /* ViewController.swift in Sources */,
 				8475D48021351473008BD946 /* AppDelegate.swift in Sources */,
+				849117E4219E8C50007AD734 /* AAChartModel.swift in Sources */,
+				849117E6219E8C50007AD734 /* AASeriesElement.swift in Sources */,
+				849117E5219E8C50007AD734 /* AASerializable.swift in Sources */,
+				849117E3219E8C50007AD734 /* AAChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
