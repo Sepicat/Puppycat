@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         view.addSubview(aaChartView)
         aaChartView.snp.makeConstraints { make in
             make.right.left.equalToSuperview()
-            make.top.equalToSuperview().offset(50)
+            make.top.equalTo(self.view.safeAreaLayoutGuide.snp.top).offset(150)
             make.bottom.equalToSuperview().offset(-50)
         }
         test_aa()
@@ -44,6 +44,7 @@ extension ViewController {
             let repos = topRepos.enumerated().filter { $0.0 < 10 }.map { $0.1.name }
 
             self.chartModel.categories(repos)
+                .chartType(.bar)
                 .legendEnabled(true)
                 .colorsTheme(["#fe117c"])
                 .animationType(.easeFrom)
